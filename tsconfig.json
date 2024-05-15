@@ -20,7 +20,8 @@
     "useDefineForClassFields": false,
     "lib": [
       "ES2022",
-      "dom"
+      "dom",
+      "scripthost"
     ]
   },
   "angularCompilerOptions": {
@@ -28,5 +29,6 @@
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
     "strictTemplates": true
-  }
+  },
+  "allowSyntheticDefaultImports": true
 }
